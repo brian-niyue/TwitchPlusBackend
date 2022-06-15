@@ -1,4 +1,4 @@
-package com.laioffer.jupiter.db;
+package com.brianniyue.jupiter.db;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

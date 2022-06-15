@@ -1,8 +1,8 @@
-package com.laioffer.jupiter.servlet;
+package com.brianniyue.jupiter.servlet;
 
+import com.brianniyue.jupiter.external.TwitchException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.laioffer.jupiter.external.TwitchClient;
-import com.laioffer.jupiter.external.TwitchException;
+import com.brianniyue.jupiter.external.TwitchClient;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;

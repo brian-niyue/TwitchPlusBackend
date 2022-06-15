@@ -1,4 +1,4 @@
-package com.laioffer.jupiter.entity;
+package com.brianniyue.jupiter.entity;
 public enum ItemType {
     STREAM, VIDEO, CLIP
 }

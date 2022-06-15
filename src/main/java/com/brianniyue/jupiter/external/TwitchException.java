@@ -1,4 +1,4 @@
-package com.laioffer.jupiter.external;
+package com.brianniyue.jupiter.external;
 
 public class TwitchException extends RuntimeException {
     public TwitchException(String errorMessage) {

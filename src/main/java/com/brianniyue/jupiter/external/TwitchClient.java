@@ -1,13 +1,13 @@
-package com.laioffer.jupiter.external;
+package com.brianniyue.jupiter.external;
 
 import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
 
+import com.brianniyue.jupiter.entity.Game;
+import com.brianniyue.jupiter.entity.Item;
+import com.brianniyue.jupiter.entity.ItemType;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.laioffer.jupiter.entity.Game;
-import com.laioffer.jupiter.entity.Item;
-import com.laioffer.jupiter.entity.ItemType;
 import org.apache.http.HttpEntity;
 import org.apache.http.client.ResponseHandler;
 import org.apache.http.client.methods.HttpGet;

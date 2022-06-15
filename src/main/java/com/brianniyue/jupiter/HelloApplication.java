@@ -1,4 +1,4 @@
-package com.laioffer.jupiter;
+package com.brianniyue.jupiter;
 
 import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;
