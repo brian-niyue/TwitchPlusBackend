@@ -5,7 +5,7 @@ import java.io.InputStream;
 import java.util.Properties;
 
 public class MySQLDBUtil {
-    private static final String INSTANCE = "twitchplusdb.cehv0mdxyvrb.us-west-1.rds.amazonaws.com";
+    private static final String INSTANCE = "twitchplusdb.cglu0yx5ejiw.us-east-1.rds.amazonaws.com";
     private static final String PORT_NUM = "3306";
     private static final String DB_NAME = "twitchplusdb";
     public static String getMySQLAddress() throws IOException {

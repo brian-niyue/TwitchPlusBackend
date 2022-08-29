@@ -6,6 +6,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import org.json.JSONObject;
 
 import com.brianniyue.jupiter.external.TwitchException;
 
@@ -17,6 +18,7 @@ import com.brianniyue.jupiter.external.TwitchClient;
 public class GameServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse
             response) throws ServletException, IOException {
+
         // Get gameName from request URL.
         String gameName = request.getParameter("game_name");
         TwitchClient client = new TwitchClient();
