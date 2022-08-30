@@ -1,8 +1,8 @@
-package com.brianniyue.jupiter.db;
+package com.brianniyue.backend.db;
 
-import com.brianniyue.jupiter.entity.Item;
-import com.brianniyue.jupiter.entity.ItemType;
-import com.brianniyue.jupiter.entity.User;
+import com.brianniyue.backend.entity.Item;
+import com.brianniyue.backend.entity.ItemType;
+import com.brianniyue.backend.entity.User;
 
 import java.sql.*;
 import java.util.*;

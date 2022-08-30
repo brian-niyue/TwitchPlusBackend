@@ -1,4 +1,4 @@
-package com.brianniyue.jupiter.recommendation;
+package com.brianniyue.backend.recommendation;
 
 public class RecommendationException extends RuntimeException {
     public RecommendationException(String errorMessage) {

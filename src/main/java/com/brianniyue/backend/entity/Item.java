@@ -1,4 +1,4 @@
-package com.brianniyue.jupiter.entity;
+package com.brianniyue.backend.entity;
 
 import com.fasterxml.jackson.annotation.JsonAlias;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;

@@ -1,8 +1,8 @@
-package com.brianniyue.jupiter.servlet;
+package com.brianniyue.backend.servlet;
 
-import com.brianniyue.jupiter.entity.Item;
-import com.brianniyue.jupiter.recommendation.ItemRecommender;
-import com.brianniyue.jupiter.recommendation.RecommendationException;
+import com.brianniyue.backend.entity.Item;
+import com.brianniyue.backend.recommendation.ItemRecommender;
+import com.brianniyue.backend.recommendation.RecommendationException;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;

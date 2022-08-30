@@ -1,12 +1,12 @@
-package com.brianniyue.jupiter.recommendation;
+package com.brianniyue.backend.recommendation;
 
-import com.brianniyue.jupiter.db.MySQLConnection;
-import com.brianniyue.jupiter.db.MySQLException;
-import com.brianniyue.jupiter.entity.Game;
-import com.brianniyue.jupiter.entity.Item;
-import com.brianniyue.jupiter.entity.ItemType;
-import com.brianniyue.jupiter.external.TwitchClient;
-import com.brianniyue.jupiter.external.TwitchException;
+import com.brianniyue.backend.db.MySQLConnection;
+import com.brianniyue.backend.db.MySQLException;
+import com.brianniyue.backend.entity.Game;
+import com.brianniyue.backend.entity.Item;
+import com.brianniyue.backend.entity.ItemType;
+import com.brianniyue.backend.external.TwitchClient;
+import com.brianniyue.backend.external.TwitchException;
 
 import java.util.*;
 import java.util.function.Function;

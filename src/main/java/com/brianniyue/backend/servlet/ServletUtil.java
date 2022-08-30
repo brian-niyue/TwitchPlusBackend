@@ -1,9 +1,9 @@
-package com.brianniyue.jupiter.servlet;
+package com.brianniyue.backend.servlet;
 
 import com.fasterxml.jackson.core.JsonParseException;
 import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.brianniyue.jupiter.entity.Item;
+import com.brianniyue.backend.entity.Item;
 import org.apache.commons.codec.digest.DigestUtils;
 
 import javax.servlet.http.HttpServletRequest;

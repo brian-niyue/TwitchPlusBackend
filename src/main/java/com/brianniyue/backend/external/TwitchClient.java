@@ -1,11 +1,11 @@
-package com.brianniyue.jupiter.external;
+package com.brianniyue.backend.external;
 
 import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
 
-import com.brianniyue.jupiter.entity.Game;
-import com.brianniyue.jupiter.entity.Item;
-import com.brianniyue.jupiter.entity.ItemType;
+import com.brianniyue.backend.entity.Game;
+import com.brianniyue.backend.entity.Item;
+import com.brianniyue.backend.entity.ItemType;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.http.HttpEntity;

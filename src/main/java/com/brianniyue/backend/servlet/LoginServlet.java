@@ -1,10 +1,10 @@
-package com.brianniyue.jupiter.servlet;
+package com.brianniyue.backend.servlet;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.brianniyue.jupiter.db.MySQLConnection;
-import com.brianniyue.jupiter.db.MySQLException;
-import com.brianniyue.jupiter.entity.LoginRequestBody;
-import com.brianniyue.jupiter.entity.LoginResponseBody;
+import com.brianniyue.backend.db.MySQLConnection;
+import com.brianniyue.backend.db.MySQLException;
+import com.brianniyue.backend.entity.LoginRequestBody;
+import com.brianniyue.backend.entity.LoginResponseBody;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;

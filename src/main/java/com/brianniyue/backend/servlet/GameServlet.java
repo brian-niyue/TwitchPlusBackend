@@ -1,4 +1,4 @@
-package com.brianniyue.jupiter.servlet;
+package com.brianniyue.backend.servlet;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -6,13 +6,12 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import org.json.JSONObject;
 
-import com.brianniyue.jupiter.external.TwitchException;
+import com.brianniyue.backend.external.TwitchException;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import com.brianniyue.jupiter.external.TwitchClient;
+import com.brianniyue.backend.external.TwitchClient;
 
 @WebServlet(name = "GameServlet", urlPatterns = {"/game"})
 public class GameServlet extends HttpServlet {

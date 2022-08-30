@@ -1,4 +1,4 @@
-package com.brianniyue.jupiter.servlet;
+package com.brianniyue.backend.servlet;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;

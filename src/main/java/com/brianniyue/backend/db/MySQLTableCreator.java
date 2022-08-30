@@ -1,4 +1,4 @@
-package com.brianniyue.jupiter.db;
+package com.brianniyue.backend.db;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
